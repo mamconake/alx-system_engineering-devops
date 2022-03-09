@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 3 iacta | tail -n |\
+awk -F:'NR ==3 {print $1}'iacta
